@@ -1,8 +1,10 @@
 The =Makefile= in this repo does what's needed to set up a [[https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp][Steel Bank
-Common Lisp]] (=sbcl=) Common Lisp environment on a Mac.
+Common Lisp]] (=sbcl=) Common Lisp environment on a Mac, with smooth
+Emacs integration.
 
-Some of the Quicklisp and SLIME tutorials are not mutually compatible,
-and this repo captures what I needed to do to get it to work.
+Some of the Quicklisp and SLIME tutorials out there are not mutually
+compatible, and this repo captures what I needed to do to get it to
+work.
 
 * Requirements
 
