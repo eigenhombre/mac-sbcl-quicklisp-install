@@ -10,7 +10,7 @@ sbcl: .sbcl-installed
 quicklisp.lisp:
 	curl -s -o quicklisp.lisp http://beta.quicklisp.org/quicklisp.lisp
 
-quicklisp: /Users/jacobsen/quicklisp/setup.lisp
+quicklisp: $(HOME)/quicklisp/setup.lisp
 
 CMD = '(quicklisp-quickstart:install :path "$(HOME)/quicklisp")'
 
