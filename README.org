@@ -26,6 +26,10 @@ You can also =make clean=, but be advised that this will nuke any
 existing =sbcl= installed by Homebrew, and also any directory in your
 home dir named =quicklisp=.
 
+* See Also
+
+My Emacs config file, [[https://github.com/eigenhombre/emacs-config/blob/master/init.el#L800][SLIME section]].
+
 * License
 Copyright © 2019, John Jacobsen. MIT License.
 
