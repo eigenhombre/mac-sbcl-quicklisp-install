@@ -1,8 +1,28 @@
-The =Makefile= in this repo does what's needed to set up a =sbcl=
-Common Lisp environment on a Mac.
+The =Makefile= in this repo does what's needed to set up a [[https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp][Steel Bank
+Common Lisp]] (=sbcl=) Common Lisp environment on a Mac.
 
 Some of the Quicklisp and SLIME tutorials are not mutually compatible,
 and this repo captures what I needed to do to get it to work.
+
+* Requirements
+
+- A Mac
+- Homebrew
+- XCode
+
+I might have used Homebrew to install Make, as well.
+
+* Usage
+
+#+BEGIN_SRC
+git clone <this repo>
+cd <repo dir>
+make
+#+END_SRC
+
+You can also =make clean=, but be advised that this will nuke any
+existing =sbcl= installed by Homebrew, and also any directory in your
+home dir named =quicklisp=.
 
 * License
 Copyright © 2019, John Jacobsen. MIT License.
